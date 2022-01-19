@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <h1>Validador de Cartão de Crédito</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            name="cardNumber"
+            id="cardNumber"
+            value=""
+            placeholder="xxxx-xxxx-xxxx-xxxx"
+            maxlength="16"
+          />
+          <input type="submit" id="buttonValidate" value="Verificar" />
+        </form>
+      </main>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
