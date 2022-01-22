@@ -13,16 +13,26 @@
         <h1 class="title">Validador de Cartão - Algorítmo de Luhn</h1>
       </header>
       <main>
-        <form>
+        <form class="containerForm">
+          <div>
+            <h2 class="titleForm">Vamos testar?</h2>
+            <h3 class="titleForm">Entre com os números abaixo:</h3>
+          </div>
           <input
-            type="number"
+            class="inputCardNumbers"
+            type="text"
             name="cardNumber"
             id="cardNumber"
             value=""
             placeholder="xxxx-xxxx-xxxx-xxxx"
             maxlength="16"
           />
-          <input type="submit" id="buttonValidate" value="Verificar" />
+          <input
+            class="buttonCheck"
+            type="submit"
+            id="buttonValidate"
+            value="Verificar"
+          />
         </form>
       </main>
       <footer class="containerFooter">

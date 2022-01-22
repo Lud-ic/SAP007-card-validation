@@ -22,6 +22,45 @@
   font-size: 30px;
 }
 
+.containerForm {
+  background-color: #c4d8cb;
+  width: 30rem;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titleForm {
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+}
+
+.inputCardNumbers {
+  width: 60%;
+  height: 37px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  text-align: center;
+  font-size: 16px;
+}
+
+.buttonCheck {
+  width: 30%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3b5a48;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .containerFooter {
   height: 60px;
   width: 100%;
