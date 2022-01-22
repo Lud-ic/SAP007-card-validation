@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.containerFooter {
+  height: 60px;
+  width: 100%;
+  background-color: #0a1e12;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: fixed;
+  bottom: 0px;
+}
+
+.createdBy {
+  color: #e5e5e5;
+  font-size: 16px;
+}
+
+.socialMedias {
+  display: flex;
+  gap: 40px;
+}
+
+.iconSocialMedias {
+  height: 35px;
+}
