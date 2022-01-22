@@ -1,0 +1,28 @@
+<svg width="143" height="89" viewBox="0 0 143 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="34.5" y="21.5" width="105.443" height="65" rx="7.5" stroke="white" stroke-width="5"/>
+<line x1="36" y1="47" x2="140" y2="47" stroke="white" stroke-width="10"/>
+<rect x="2.5" y="2.5" width="105.443" height="65" rx="7.5" fill="#3B5A48" stroke="white" stroke-width="5"/>
+<mask id="path-4-inside-1_35_9" fill="white">
+<rect x="16.6949" y="13" width="16.9996" height="12" rx="1"/>
+</mask>
+<rect x="16.6949" y="13" width="16.9996" height="12" rx="1" stroke="white" stroke-width="4" mask="url(#path-4-inside-1_35_9)"/>
+<line x1="19.6722" y1="17.7469" x2="23.1137" y2="17.7469" stroke="white" stroke-width="0.4"/>
+<line x1="19.6722" y1="20.3919" x2="23.1137" y2="20.3919" stroke="white" stroke-width="0.4"/>
+<line x1="26.5552" y1="17.7469" x2="29.9968" y2="17.7469" stroke="white" stroke-width="0.4"/>
+<line x1="26.5552" y1="20.3919" x2="29.9968" y2="20.3919" stroke="white" stroke-width="0.4"/>
+<line y1="-0.2" x2="1.90891" y2="-0.2" transform="matrix(0.721153 0.692776 -0.721153 0.692776 23.8021 20.5919)" stroke="white" stroke-width="0.4"/>
+<line y1="-0.2" x2="1.90891" y2="-0.2" transform="matrix(0.721153 -0.692776 0.721153 0.692776 25.1788 21.9143)" stroke="white" stroke-width="0.4"/>
+<line x1="26.3552" y1="20.5919" x2="26.3552" y2="17.947" stroke="white" stroke-width="0.4"/>
+<line x1="23.6021" y1="20.5919" x2="23.6021" y2="17.947" stroke="white" stroke-width="0.4"/>
+<line y1="-0.2" x2="2.0013" y2="-0.2" transform="matrix(0.476768 -0.879029 0.894235 0.447597 23.8021 17.6476)" stroke="white" stroke-width="0.4"/>
+<line y1="-0.2" x2="1.26484" y2="-0.2" transform="matrix(0.929293 0.369344 -0.395549 0.918445 25.1788 16.6245)" stroke="white" stroke-width="0.4"/>
+<mask id="path-15-inside-2_35_9" fill="white">
+<rect x="81" y="46" width="19" height="13" rx="1"/>
+</mask>
+<rect x="81" y="46" width="19" height="13" rx="1" stroke="white" stroke-width="6" mask="url(#path-15-inside-2_35_9)"/>
+<line x1="16.6949" y1="40.2778" x2="52.6531" y2="40.2778" stroke="white" stroke-width="5"/>
+<line x1="16.6949" y1="50.6481" x2="29.5371" y2="50.6481" stroke="white" stroke-width="5"/>
+<line x1="32.1055" y1="50.6481" x2="44.9478" y2="50.6481" stroke="white" stroke-width="5"/>
+<line x1="47.5162" y1="50.6481" x2="60.3585" y2="50.6481" stroke="white" stroke-width="5"/>
+<line x1="62.9269" y1="50.6481" x2="75.7691" y2="50.6481" stroke="white" stroke-width="5"/>
+</svg>
