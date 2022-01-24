@@ -2,27 +2,103 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Tarjeta de crédito válida</title>
+    <title>Validação de Cartão</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../assets/Logo.svg" />
   </head>
   <body>
     <div id="root">
-      <header>
-        <h1>Validador de Cartão de Crédito</h1>
-      </header>
-      <main>
-        <form>
-          <input
-            type="text"
-            name="cardNumber"
-            id="cardNumber"
-            value=""
-            placeholder="xxxx-xxxx-xxxx-xxxx"
-            maxlength="16"
-          />
-          <input type="submit" id="buttonValidate" value="Verificar" />
-        </form>
-      </main>
+      <div>
+        <header class="containerHeader">
+          <img class="logo" src="../assets/Logo.svg" />
+          <h1 class="title">Validador de Cartão - Algoritmo de Luhn</h1>
+        </header>
+        <section class="containerSection">
+          <main class="containerMain">
+            <section class="containerSectionInfo">
+              <h3 class="titleInfos">
+                Você já teve curiosidade para saber como são feitas as
+                validações de cartões, quando você está fazendo uma compra
+                online?
+              </h3>
+              <p class="textInfos">
+                O Algoritmo de Luhn também conhecido como "módulo de 10",
+                recebeu esse nome em homenagem ao seu criador, o cientista da
+                IBM Hans Peter Luhn. O algoritmo consiste em uma fórmula simples
+                de soma, de verificação, usada para validar uma variedade de
+                números de identificação, como cartões bancários, números de
+                IMEI, números de identificações de diversos países, como também
+                números de códigos de pesquisa que aparecem nos recibos do Mc
+                Donald’s, Taco Bell. Fonte:
+                <a
+                  href="https://en.wikipedia.org/wiki/Luhn_algorithm"
+                  target="_blank"
+                  >Wikipedia</a
+                >
+              </p>
+            </section>
+            <form class="containerForm">
+              <div>
+                <h2 class="titleForm">Vamos testar?</h2>
+                <h3 class="titleForm">Entre com os números abaixo:</h3>
+              </div>
+              <input
+                class="inputCardNumbers"
+                type="text"
+                name="cardNumber"
+                id="cardNumber"
+                value=""
+                placeholder="xxxx-xxxx-xxxx-xxxx"
+                maxlength="16"
+              />
+              <input
+                class="buttonCheck"
+                type="submit"
+                id="buttonValidate"
+                value="Verificar"
+              />
+            </form>
+          </main>
+          <aside class="containerAside">
+            <h3 class="titleInfos">Curiosidade</h3>
+            <p class="textInfos">
+              Em 1960, foi concedido uma patente de uma invenção, também do
+              cientista Luhn, de um computador de mão para fazer o cálculo e
+              verificar números que tenha um dígito de verificação. Fonte:
+              <a
+                href="https://patents.google.com/patent/US2950048A/en"
+                target="_blank"
+                >United States Patent Office</a
+              >
+            </p>
+            <div class="containerHandComputer">
+              <img
+                class="handComputerImage"
+                src="../assets/hand_computer.png"
+              />
+            </div>
+          </aside>
+        </section>
+        <footer class="containerFooter">
+          <div class="createdBy">Criado por Ludmila Magalhães</div>
+          <div class="socialMedias">
+            <a href="https://github.com/Lud-ic" target="_blank"
+              ><img
+                class="iconSocialMedias"
+                src="../assets/Github_Icon.svg"
+                alt="GitHub Icon"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/ludmila-magalhaes/"
+              target="_blank"
+              ><img
+                class="iconSocialMedias"
+                src="../assets/LinkedIn_Icon.svg"
+                alt="LinkedIn Icon"
+            /></a>
+          </div>
+        </footer>
+      </div>
     </div>
     <script src="index.js" type="module"></script>
   </body>
