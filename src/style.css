@@ -22,6 +22,48 @@
   font-size: 30px;
 }
 
+.containerSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100%;
+}
+
+.containerMain {
+  width: 80%;
+  padding: 30px;
+}
+
+.containerSectionInfo {
+  background-color: #c4d8cb;
+  border-radius: 10px;
+
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.titleInfos {
+  color: #2c3a32;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.textInfos {
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #3b5a48;
+}
+
+a:hover {
+  font-weight: 550;
+}
 .containerForm {
   background-color: #c4d8cb;
   width: 30rem;
@@ -61,6 +103,24 @@
   cursor: pointer;
 }
 
+.containerAside {
+  background-color: #c4d8cb;
+  border-radius: 10px;
+  width: 20%;
+  margin: 30px;
+  padding: 15px;
+}
+
+.containerHandComputer {
+  display: flex;
+  justify-content: center;
+}
+
+.handComputerImage {
+  width: 300px;
+  border-radius: 10px;
+}
+
 .containerFooter {
   height: 60px;
   width: 100%;
@@ -70,8 +130,6 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  position: fixed;
-  bottom: 0px;
 }
 
 .createdBy {
