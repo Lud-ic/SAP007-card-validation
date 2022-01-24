@@ -85,6 +85,7 @@ a:hover {
   width: 60%;
   height: 37px;
   border: none;
+  outline: none;
   border-radius: 10px;
   background-color: #e5e5e5;
   text-align: center;
