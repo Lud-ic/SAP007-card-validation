@@ -92,6 +92,16 @@ a:hover {
   font-size: 16px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .buttonCheck {
   width: 30%;
   height: 30px;
@@ -118,7 +128,7 @@ a:hover {
 }
 
 .handComputerImage {
-  width: 300px;
+  width: 95%;
   border-radius: 10px;
 }
 
