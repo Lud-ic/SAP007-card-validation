@@ -4,9 +4,17 @@ console.log(validator);
 
 let cardNumber = document.getElementById("cardNumber");
 
-let cardNumberValue = cardNumber.value;
-console.log(cardNumberValue);
-console.log(typeof cardNumberValue);
 const validate = document.getElementById("buttonValidate");
 
-validate.addEventListener("click", validator.isValid(cardNumberValue));
+validate.addEventListener("click", function (e) {
+  e.preventDefault();
+  let cardNumberValue = cardNumber.value.replace(/\D/g, " ");
+  console.log(cardNumberValue);
+  console.log(typeof cardNumberValue);
+  console.log(cardNumberValue, "testes");
+  const result = validator.isValid(cardNumberValue);
+  console.log(result);
+
+  let mascara = validator.maskify(cardNumberValue);
+  console.log(mascara, "vc funciona?");
+});
