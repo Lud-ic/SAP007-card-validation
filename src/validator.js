@@ -15,12 +15,12 @@ const validator = {
         }
         arrayCardNumbers[index] = valueNumber;
       }
-      console.log(valueNumber, "multipli");
+
       sum += valueNumber;
     }
     console.log(arrayCardNumbers);
 
-    if (sum % 10 === 0) {
+    if (sum % 10 === 0 && cardNumberValue !== "") {
       console.log("valid");
       return true;
     } else {
@@ -31,7 +31,7 @@ const validator = {
 
   maskify(cardNumberValue) {
     let hideNum = [];
-    // let arrayCardNumbers = cardNumberValue.split("").map(Number);
+
     for (let i = 0; i < cardNumberValue.length; i++) {
       if (i < cardNumberValue.length - 4) {
         hideNum.push("#");
