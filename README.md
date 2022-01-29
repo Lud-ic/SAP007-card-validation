@@ -87,4 +87,6 @@ Iniciar a aplicação
 
 Realizar os testes unitários
 
+---
+
 Criado por [Ludmila Magalhães](https://github.com/Lud-ic)
