@@ -20,7 +20,7 @@ const validator = {
     }
     console.log(arrayCardNumbers);
 
-    if (sum % 10 === 0 && cardNumberValue !== "") {
+    if (sum % 10 === 0 && cardNumberValue !== "" && sum !== 0) {
       console.log("valid");
       return true;
     } else {
