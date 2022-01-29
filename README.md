@@ -45,15 +45,15 @@ Assim como as cerimonias da metodologia ágil: Daily, Sprint Planning, Sprint Re
 
 A prototipaçãodo projeto foi feita utizando a ferramenta de design [Figma](https://www.figma.com/file/lH08cMN6RkghJwQ0AHW6AE/Card-Validation?node-id=0%3A1), para me organizar melhor quanto ao posicionamento dos elementos na página, paleta de cores e criação da logomarca.
 
-<img src="scr/assets/figma.png" alt="design figma"/>
+<img src="src\assets\figma.png" alt="design figma"/>
 
 ## 6. Capturas de tela
 
 <div>
-  <img src="scr/assets/screenshot1.png" alt="captura de tela da aplicação"/>
-  <img src="scr/assets/screenshot2.png" alt="captura de tela da aplicação"/>
-  <img src="scr/assets/screenshot3.png" alt="captura de tela da aplicação"/>
-  <img src="scr/assets/screenshot4.png" alt="captura de tela da aplicação"/>
+  <img src="src\assets\screenshot1.png" alt="captura de tela da aplicação"/><br/>
+  <img src="src\assets\screenshot2.png" alt="captura de tela da aplicação"/><br/>
+  <img src="src\assets\screenshot3.png" alt="captura de tela da aplicação"/><br/>
+  <img src="src\assets\screenshot4.png" alt="captura de tela da aplicação"/>
 </div>
 
 ## 7. Tecnologias utilizadas
