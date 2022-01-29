@@ -1,7 +1,6 @@
 const validator = {
   isValid(cardNumberValue) {
     let arrayCardNumbers = cardNumberValue.split("").map(Number);
-    console.log(arrayCardNumbers, "Valor do cartao em array");
 
     let sum = 0;
 
@@ -18,29 +17,26 @@ const validator = {
 
       sum += valueNumber;
     }
-    console.log(arrayCardNumbers);
 
     if (sum % 10 === 0 && cardNumberValue !== "" && sum !== 0) {
-      console.log("valid");
       return true;
     } else {
-      console.log("invalid");
       return false;
     }
   },
 
   maskify(cardNumberValue) {
-    let hideNum = [];
+    let hideCardNum = [];
 
     for (let i = 0; i < cardNumberValue.length; i++) {
       if (i < cardNumberValue.length - 4) {
-        hideNum.push("#");
+        hideCardNum.push("#");
       } else {
-        hideNum.push(cardNumberValue[i]);
+        hideCardNum.push(cardNumberValue[i]);
       }
     }
-    console.log(hideNum, " /////////");
-    return hideNum.join("");
+
+    return hideCardNum.join("");
   },
 };
 
