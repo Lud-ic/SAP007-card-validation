@@ -51,8 +51,11 @@ A prototipaçãodo projeto foi feita utizando a ferramenta de design [Figma](htt
 
 <div>
   <img src="src\assets\screenshot1.png" alt="captura de tela da aplicação"/><br/>
+  <br/>
   <img src="src\assets\screenshot2.png" alt="captura de tela da aplicação"/><br/>
+  <br/>
   <img src="src\assets\screenshot3.png" alt="captura de tela da aplicação"/><br/>
+  <br/>
   <img src="src\assets\screenshot4.png" alt="captura de tela da aplicação"/>
 </div>
 
