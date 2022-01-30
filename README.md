@@ -87,6 +87,8 @@ Iniciar a aplicação
 
 Realizar os testes unitários
 
+` $ npm test or yarn test`
+
 ---
 
 Criado por [Ludmila Magalhães](https://github.com/Lud-ic)
