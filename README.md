@@ -30,7 +30,7 @@ A validação do Algoritmo de Luhn é obtida por meio de alguns passos:
 
 Como a validação de cartões bancários era uma novidade para mim, a minha ideia foi desenvolver um site com proposta didática para mostrar mais detalhadamente como é feita a validação dos números de cartões bancários, e disponibilizar um campo na página para que o usuário possa testar, e verificar se os números que eles estão utilizando são válidos ou inválidos.
 
-### Observação: os dados não são armazenas em nenhum servidor.
+### Observação: os dados não são armazenados em nenhum servidor.
 
 ## 3. Implementações futuras
 
