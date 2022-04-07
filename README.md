@@ -79,7 +79,7 @@ Clonar o projeto
 
 Instalar as dependências do projeto
 
-` $ npm install or yarn`
+` $ npm install or yarn install`
 
 Iniciar a aplicação
 
