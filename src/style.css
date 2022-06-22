@@ -109,6 +109,18 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+.validationAnswer {
+  font-weight: 600;
+  height: 20px;
+}
+
+.valid {
+  color: #149F50;
+}
+.invalid {
+  color: #FF0F0F;
+}
+
 .buttonCheck {
   width: 30%;
   height: 30px;
