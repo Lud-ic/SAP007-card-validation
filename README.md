@@ -91,4 +91,4 @@ Realizar os testes unitários
 
 ---
 
-Criado por [Ludmila Magalhães](https://github.com/Lud-ic)
+Desenvolvido por [Ludmila Magalhães](https://github.com/Lud-ic)
